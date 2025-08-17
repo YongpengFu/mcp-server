@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mcp-server:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the resource directory for file access
+      - ./resource:/app/resource:ro
+    environment:
+      # Set environment variables if needed
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped 
