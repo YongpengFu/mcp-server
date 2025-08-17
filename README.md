@@ -66,7 +66,7 @@ The tool can be called with:
 
 The server exposes a resource for accessing the MCP readme documentation:
 
-- **URI**: `file:///Users/yongpengfu/Desktop/Desktop/Desktop/Language/Data_Engineering/MCP/mcp-servers/quickstart-resources/resource/mcpreadme.md`
+- **URI**: `file:///resource/mcpreadme.md`
 - **Name**: MCP Readme
 - **Description**: MCP documentation and readme file
 - **MIME Type**: `text/markdown`
