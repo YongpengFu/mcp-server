@@ -590,6 +590,7 @@ dependencies = [
     { name = "langchain-mcp-adapters" },
     { name = "langgraph" },
     { name = "pandas" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -598,6 +599,7 @@ requires-dist = [
     { name = "langchain-mcp-adapters", specifier = ">=0.1.9" },
     { name = "langgraph", specifier = ">=0.6.5" },
     { name = "pandas", specifier = ">=2.3.1" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]

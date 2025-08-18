@@ -9,4 +9,5 @@ dependencies = [
     "langchain[openai]>=0.3.27",
     "langgraph>=0.6.5",
     "pandas>=2.3.1",
+    "python-dotenv>=1.1.1",
 ]
