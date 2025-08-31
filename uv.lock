@@ -851,10 +851,14 @@ version = "0.1.0"
 source = { virtual = "mcpresource" }
 dependencies = [
     { name = "fastmcp" },
+    { name = "httpx" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "fastmcp", specifier = ">=2.11.3" }]
+requires-dist = [
+    { name = "fastmcp", specifier = ">=2.11.3" },
+    { name = "httpx", specifier = ">=0.25.0" },
+]
 
 [[package]]
 name = "mdurl"
